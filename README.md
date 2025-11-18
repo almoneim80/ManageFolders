@@ -1,17 +1,41 @@
-File Renamer & Organizer is a Windows Forms application built with C# to simplify file management. 
-The tool allows users to automatically rename and reorder files within any folder, whether the folder contains a single file or thousands. 
-It provides a user-friendly interface for handling bulk file operations, saving time and reducing manual errors.
+# Folder Manager
 
-Key Features:
+A simple Windows Forms application for managing and renaming folders.
 
-Rename files in bulk with consistent naming patterns.
+## Features
 
-Reorder files within a folder automatically.
+- Browse and select folders
+- Folder management operations
+- Clean and intuitive user interface
 
-Supports small folders with one file up to large directories with thousands of files.
+## Project Structure
+```
+ManageFolders/
+├── Form1.cs - Main form class
+├── Form1.Designer.cs - UI design code
+├── Form1.resx - Form resources
+├── Program.cs - Application entry point
+├── ManageFolders.csproj - Project configuration
+└── README.md - This file
+```
 
-Simple and intuitive Windows Forms interface.
+## Requirements
 
-Built with C# for fast performance and reliability.
+- .NET Framework / .NET 6+
+- Windows Operating System
 
-Technologies Used: C#, Windows Forms.
+## Usage
+
+1. Run the application
+2. Click "Browse" to select a folder
+3. Use the available operations
+4. Click "Run" to execute
+
+## Build
+
+```
+dotnet build
+```
+
+## License
+MIT License
